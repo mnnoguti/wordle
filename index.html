@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Wordle</h1>
+    </header>
+    <main>
+        <section id="game">
+            <div class="container">
+                <div class="line">
+                    <div class="item" id="cell01"></div>
+                    <div class="item" id="cell02"></div>
+                    <div class="item" id="cell03"></div>
+                    <div class="item" id="cell04"></div>
+                    <div class="item" id="cell05"></div>
+                </div>
+                <div class="line">
+                    <div class="item" id="cell11"></div>
+                    <div class="item" id="cell12"></div>
+                    <div class="item" id="cell13"></div>
+                    <div class="item" id="cell14"></div>
+                    <div class="item" id="cell15"></div>
+                </div>
+                <div class="line">
+                    <div class="item" id="cell21"></div>
+                    <div class="item" id="cell22"></div>
+                    <div class="item" id="cell23"></div>
+                    <div class="item" id="cell24"></div>
+                    <div class="item" id="cell25"></div>
+                </div>
+                <div class="line">
+                    <div class="item" id="cell31"></div>
+                    <div class="item" id="cell32"></div>
+                    <div class="item" id="cell33"></div>
+                    <div class="item" id="cell34"></div>
+                    <div class="item" id="cell35"></div>
+                </div>
+                <div class="line">
+                    <div class="item" id="cell41"></div>
+                    <div class="item" id="cell42"></div>
+                    <div class="item" id="cell43"></div>
+                    <div class="item" id="cell44"></div>
+                    <div class="item" id="cell45"></div>
+                </div>
+                <div class="line">
+                    <div id="cell51"></div>
+                    <div id="cell52"></div>
+                    <div id="cell53"></div>
+                    <div id="cell54"></div>
+                    <div id="cell55"></div>
+                </div>
+                <div class="line">
+                    <div id="cell61"></div>
+                    <div id="cell62"></div>
+                    <div id="cell63"></div>
+                    <div id="cell64"></div>
+                    <div id="cell65"></div>
+                </div>
+            </div>
+        </section>
+        <section id="keyboard">
+            <p>
+                <button value="Q" onclick="letra01('Q')" id="btnQ">Q</button> 
+                <button value="W" onclick="letra01('W')" id="btnW">W</button>
+                <button value="E" onclick="letra01('E')" id="btnE">E</button>
+                <button value="R" onclick="letra01('R')" id="btnR">R</button>
+                <button value="T" onclick="letra01('T')" id="btnT">T</button>
+                <button value="Y" onclick="letra01('Y')" id="btnY">Y</button>
+                <button value="U" onclick="letra01('U')" id="btnU">U</button>
+                <button value="I" onclick="letra01('I')" id="btnI">I</button>
+                <button value="O" onclick="letra01('O')" id="btnO">O</button>
+                <button value="P" onclick="letra01('P')" id="btnP">P</button>
+            </p>
+            <p> <button value="A" onclick="letra01('A')" id="btnA">A</button>
+                <button value="S" onclick="letra01('S')" id="btnS">S</button>
+                <button value="D" onclick="letra01('D')" id="btnD">D</button>
+                <button value="F" onclick="letra01('F')" id="btnF">F</button>
+                <button value="G" onclick="letra01('G')" id="btnG">G</button>
+                <button value="H" onclick="letra01('H')" id="btnH">H</button>
+                <button value="J" onclick="letra01('J')" id="btnJ">J</button>
+                <button value="K" onclick="letra01('K')" id="btnK">K</button>
+                <button value="L" onclick="letra01('L')" id="btnL">L</button>
+                <button value="Ç" onclick="letra01('Ç')" id="btnÇ">Ç</button>
+            </p>
+            
+            <p>
+                <button value="Z" onclick="letra01('Z')" id="btnZ">Z</button>
+                <button value="X" onclick="letra01('X')" id="btnX">X</button>
+                <button value="C" onclick="letra01('C')" id="btnC">C</button>
+                <button value="V" onclick="letra01('V')" id="btnV">V</button>
+                <button value="B" onclick="letra01('B')" id="btnB">B</button>
+                <button value="N" onclick="letra01('N')" id="btnN">N</button>
+                <button value="M" onclick="letra01('M')" id="btnM">M</button>
+            </p>
+        </section>
+    </main>
+    <script src="wordle.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+    width: 300px;
+}
+.line {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: auto;
+}
+.item{
+    border: 2px black solid;
+    margin: 5px;
+}
+#keyboard{
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center; 
+}
+button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #F4BC3B;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
